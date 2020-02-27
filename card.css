@@ -1,0 +1,73 @@
+.container {
+    padding: 30px;
+}
+
+.card {
+    border-radius: 3px;
+    box-shadow: 0 0 3px;
+    display: flex;
+    flex-direction: column;
+    height: 530px;
+    width: 300px;
+}
+
+.header {
+    background-color: rgb(238, 231, 241);
+    display: block;
+    height: 150px;
+    width: 275px;
+    margin: auto;
+}
+
+.header-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.card-content {
+    display: block;
+    font-family: 'Muli', sans-serif;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+.name-product {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.footer {
+    align-items: center;
+    border-radius: 3%;
+    background-color: rgb(112, 72, 136);
+    display: flex;
+    height: 95px;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.footer-link {
+    display: inline-block;
+    width: 150px;
+}
+
+.footer-img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.button-text {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
